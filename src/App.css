@@ -1,0 +1,66 @@
+body {
+  overflow-x: hidden;
+}
+:root {
+  --main-color :rgba(2, 96, 114, 0.586);
+}
+
+.navigation {
+  background-color : var(--main-color);
+  z-index: 1000;
+ 
+}
+.link {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  background-image: url('./assets/home_img.jpg');
+  background-size: cover;
+}
+
+.home .home__title {
+  background-color: var(--main-color);
+  color: #fff;
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 10em;
+  text-shadow: 20px 20px 14px rgba(0, 0, 0,1);
+}
+.home .home__title span {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  mix-blend-mode: hard-light !important;
+  color: rgb(255, 255, 255);
+}
+
+/* Workouts */
+.workouts {
+  margin-top: 2rem;
+  text-align: center;
+}
+.workouts__title {
+  color: var(--main-color);
+  padding: 0.5rem;
+}
+.workouts__wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+
+
+/* my workouts */
+.my-workouts {
+  width: 100%;
+  height: 100vh;
+  padding: 6rem;
+  background-color:rgb(229, 229, 229);
+}
